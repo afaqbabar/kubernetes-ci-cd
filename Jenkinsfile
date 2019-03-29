@@ -1,5 +1,5 @@
 node {
-
+  sh 'docker version'
    
 
 }

@@ -1,9 +1,9 @@
 pipeline {
-  agent any
+  agent 'jenkins-slave'
   stages {
     stage("Hello") {
       steps {
-        sleep 300
+        sleep 30
         echo 'Hello World'
       }
     }
